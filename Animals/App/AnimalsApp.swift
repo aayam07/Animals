@@ -11,7 +11,7 @@ import SwiftUI
 struct AnimalsApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            MainView()  // entry point of the App
         }
     }
 }
