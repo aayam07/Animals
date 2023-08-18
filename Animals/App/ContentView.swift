@@ -20,8 +20,18 @@ struct ContentView: View {
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 
                 ForEach(animals) { animal in
-                    AnimalListItemView(animal: animal)
-                        .padding(.vertical, 4)
+                    
+                    NavigationLink {
+                        // Navigation link Destination to show when the user clicks on a list item
+                        AnimalDetailView(animal: animal)
+                        
+                    } label: {
+                        
+                        // Navigation link Label to show list items
+                        AnimalListItemView(animal: animal)
+                            .padding(.vertical, 4)
+                    }
+
                 }
             }  //: LIST
             .navigationTitle("Animals")
