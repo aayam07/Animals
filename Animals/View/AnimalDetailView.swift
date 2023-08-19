@@ -55,14 +55,46 @@ struct AnimalDetailView: View {
                     
                     InsetGalleryView(animal: animal)
                 }
+                .padding(.horizontal)
                 
                 // FACTS
                 
+                Group {
+                    HeadingView(headingImage: "questionmark.circle", headingText: "Did you know?")
+                    
+                    InsetFactView(animal: animal)
+                }
+                .padding(.horizontal)
+                
                 // DESCRIPTION
+                Group {
+                    HeadingView(headingImage: "info.circle", headingText: "All about \(animal.name)")
+                    
+                    Text(animal.description)
+                        .multilineTextAlignment(.leading)
+                        .layoutPriority(1)  // higher priority. A parent layout offers the child views with the highest layout priority all the space offered to the parent minus the minimum space required for all its lower-priority children.
+                }
+                .padding(.horizontal)
                 
                 // MAP
                 
+                Group {
+                    HeadingView(headingImage: "map", headingText: "National Parks")
+                    
+                    InsetMapView()
+                }
+                .padding(.horizontal)
+                
+                
                 // LINK
+                
+                Group {
+                    HeadingView(headingImage: "books.vertical", headingText: "Learn More")
+                    
+                    ExternalWebLinkView(animal: animal)
+                    
+                }
+                .padding(.horizontal)
        
             }  //: VSTACK
             .navigationTitle("Learn about \(animal.name)")  // to always show the navigation title when the detail view shows up
