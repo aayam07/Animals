@@ -25,6 +25,10 @@ struct VideoListView: View {
                     NavigationLink {
                         // Destination View to show when clicked on the label
                         
+//                        VideoPlayerView(video: video)
+                        
+                        VideoPlayerView(videoSelected: video.id, videoTitle: video.name)
+                        
                     } label: {
                         // Label for the navigation links
                         VideoListItemView(video: video)
