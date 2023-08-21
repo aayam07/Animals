@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A025EF8B2A93875800970EF1 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A025EF8A2A93875800970EF1 /* LocationModel.swift */; };
 		A02742572A8CECEA00F464CC /* AnimalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02742562A8CECEA00F464CC /* AnimalsApp.swift */; };
 		A02742592A8CECEA00F464CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02742582A8CECEA00F464CC /* ContentView.swift */; };
 		A027425B2A8CECEB00F464CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A027425A2A8CECEB00F464CC /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A025EF8A2A93875800970EF1 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		A02742532A8CECEA00F464CC /* Animals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02742562A8CECEA00F464CC /* AnimalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsApp.swift; sourceTree = "<group>"; };
 		A02742582A8CECEA00F464CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				A05F1CC42A8DC91C007E158B /* CoverImageModel.swift */,
 				A05F1CCB2A8DDF9A007E158B /* AnimalModel.swift */,
 				A05D31252A91F2B4007F8FAA /* VideoModel.swift */,
+				A025EF8A2A93875800970EF1 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				A05D4B282A90842100253EE3 /* ExternalWebLinkView.swift in Sources */,
 				A02742852A8CF28500F464CC /* VideoListView.swift in Sources */,
 				A05D31262A91F2B4007F8FAA /* VideoModel.swift in Sources */,
+				A025EF8B2A93875800970EF1 /* LocationModel.swift in Sources */,
 				A02742892A8CF2EB00F464CC /* GalleryView.swift in Sources */,
 				A08878DD2A8F77A900B7A5E7 /* InsetGalleryView.swift in Sources */,
 				A05F1CC82A8DCB4B007E158B /* CodableBundleExtension.swift in Sources */,
