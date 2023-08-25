@@ -48,6 +48,7 @@
 		A08878D92A8F6DAE00B7A5E7 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08878D82A8F6DAE00B7A5E7 /* AnimalDetailView.swift */; };
 		A08878DB2A8F749C00B7A5E7 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08878DA2A8F749C00B7A5E7 /* HeadingView.swift */; };
 		A08878DD2A8F77A900B7A5E7 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08878DC2A8F77A900B7A5E7 /* InsetGalleryView.swift */; };
+		A09886902A98D06300184DB8 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098868F2A98D06300184DB8 /* AnimalGridItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,7 @@
 		A08878D82A8F6DAE00B7A5E7 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		A08878DA2A8F749C00B7A5E7 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		A08878DC2A8F77A900B7A5E7 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
+		A098868F2A98D06300184DB8 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +215,7 @@
 				A025EF8C2A93977C00970EF1 /* MapAnnotationView.swift */,
 				A025EF8E2A93A4FF00970EF1 /* MapInfoPanelView.swift */,
 				A03DD28F2A950C97001AE2F0 /* MotionAnimationView.swift */,
+				A098868F2A98D06300184DB8 /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				A05F1CCA2A8DDC5B007E158B /* AnimalListItemView.swift in Sources */,
 				A027428B2A8CF32000F464CC /* MainView.swift in Sources */,
 				A05D4B242A90747E00253EE3 /* InsetFactView.swift in Sources */,
+				A09886902A98D06300184DB8 /* AnimalGridItemView.swift in Sources */,
 				A05F1CC22A8DC576007E158B /* CoverImageView.swift in Sources */,
 				A05F1CC52A8DC91C007E158B /* CoverImageModel.swift in Sources */,
 				A08878D92A8F6DAE00B7A5E7 /* AnimalDetailView.swift in Sources */,
