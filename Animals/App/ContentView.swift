@@ -83,6 +83,11 @@ struct ContentView: View {
                             .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                             .padding()
                         }  //: FOR LOOP
+                        
+                        // CREDIT VIEW
+                        CreditsView()
+                            .modifier(CenterModifier())  // Custom Modifier to solve the alignment issue in the list cell(row)
+                        
                     }  //: LIST
                     .listStyle(PlainListStyle())  // to make the list item cover the entire width of the screen
 //                    .padding(.vertical, 4)
